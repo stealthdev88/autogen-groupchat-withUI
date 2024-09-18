@@ -1,0 +1,7 @@
+__pycache__/
+.python-version
+instance/
+flask_session/
+certificate/
+.env
+poetry.lock

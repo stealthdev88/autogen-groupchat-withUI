@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "research"
+version = "0.1.0"
+description = "research projects for oneday"
+authors = ["robbiejamesbennett <robbiejamesbennett@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.4"
+pyautogen = {extras = ["anthropic", "together"], version = "^0.2.32"}
+chess = "^1.10.0"
+ipython = "^8.26.0"
+python-dotenv = "^1.0.1"
+ipykernel = "^6.29.5"
+matplotlib = "^3.9.0"
+networkx = "^3.3"
+websockets = "^12.0"
+markdownify = "^0.13.1"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
